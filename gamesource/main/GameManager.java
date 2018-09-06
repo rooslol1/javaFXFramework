@@ -38,7 +38,7 @@ public class GameManager
 	 * 		"file:MyGame/../ArtFiles/MySprite.png"
 	 *
 	 */
-	private String _imageLocation = "plaatje.png";
+	private String _imageLocation = "EnemyBlob.png";
 
 
 	// PROPERTY GAME OBJECT LIST:
