@@ -24,7 +24,7 @@ public class MainApplication extends Application
 	public static final int SCREEN_HEIGHT = 600;
 	
 	
-	private Pane _myPane = new Pane();
+	private Pane _myPane = new Pane();//comment
 	private Scene _myScene;
 	private Canvas _myCanvas;
 	
@@ -44,7 +44,7 @@ public class MainApplication extends Application
 	
 	public void start(Stage primaryStage)
 	{
-		
+		System.out.println("dit is de verandering");
 		_myScene = new Scene(_myPane);
 		_myCanvas = new Canvas(SCREEN_WIDTH, SCREEN_HEIGHT);
 		_myContext = _myCanvas.getGraphicsContext2D();
