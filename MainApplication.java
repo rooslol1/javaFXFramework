@@ -44,7 +44,7 @@ public class MainApplication extends Application
 	
 	public void start(Stage primaryStage)
 	{
-		System.out.println("dit is de verandering");
+		System.out.println("dit is de verandering groetjes Roos");
 		_myScene = new Scene(_myPane);
 		_myCanvas = new Canvas(SCREEN_WIDTH, SCREEN_HEIGHT);
 		_myContext = _myCanvas.getGraphicsContext2D();
